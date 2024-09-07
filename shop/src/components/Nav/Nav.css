@@ -1,0 +1,85 @@
+.nav {
+    background-color: rgb(222, 222, 222);
+    height: 70px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex; /* Используем Flexbox для выравнивания */
+    align-items: center; /* Центрируем элементы по вертикали */
+    justify-content: space-between; /* Разделяем логотип, меню и иконки */
+    padding: 0 20px; /* Отступы слева и справа */
+    width: 100%;
+}
+
+.navbar-brand {
+    padding-left: 30px;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center; /* Центрируем элементы в середине навбара */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 15px; /* Отступы между элементами меню */
+    border-radius: 4px;
+}
+
+.nav-item:hover {
+    background-color: rgb(144, 144, 144);
+}
+
+.nav-link {
+    padding: 20px 10px; /* Вертикальный и горизонтальный отступ для ссылок */
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-icon {
+    font-size: 20px;
+    margin-left: 15px; /* Отступ между иконками */
+}
+
+.icon {
+    display: flex; /* Иконки выравниваются по горизонтали */
+    align-items: center;
+}
+
+.toggle-theme-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333; 
+    margin-left: 10px;
+}
+
+/* Медиазапросы для адаптивности */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column; /* На маленьких экранах делаем элементы вертикальными */
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav ul {
+        flex-direction: column; /* Элементы меню вертикальные на малых экранах */
+        margin-top: 10px;
+    }
+
+    .icon {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .navbar-brand {
+        padding-left: 0;
+    }
+}

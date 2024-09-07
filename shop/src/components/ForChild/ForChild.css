@@ -1,0 +1,13 @@
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title-text {
+    margin: 0; 
+  }
+  
+  .title-image {
+    margin-left: 50px;
+  }

@@ -1,0 +1,44 @@
+
+.container {
+    margin-top: 20px;
+}
+  
+.col-md-6.col-sm-3 {
+    width: 50%;
+}
+
+.right-block {
+    width: 303px;
+    height: 282px;
+    float: right;
+    padding: 15px;
+    padding-top: 0;
+}
+
+.right-block h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align : left;
+}
+
+.right-block p {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-block p.label {
+    font-weight: bold;
+    text-align : left;
+}
+
+.right-block hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 15px;
+}
+
+.right-block p span {
+    font-weight: normal;
+}

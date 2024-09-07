@@ -1,0 +1,22 @@
+.card-img-top {
+    height: 200px;
+    width: 80%; 
+    margin-left: 25px;
+  }
+
+.card-body {
+    border-top: solid 1.5px rgba(0, 0, 0, 0.182);
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.card {
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease-in-out; 
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); 
+  }
